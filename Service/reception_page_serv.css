@@ -1,0 +1,122 @@
+.body {
+    color: black;
+    background-color: white;
+    transition: all 1s ease;
+}
+
+.body-night-mode {
+    color: white;
+    background-color: #373737;
+}
+
+.conteiner{
+    background-color: #d3d3d3;
+    margin: auto;
+    height: 100px;
+    display: flex;
+    border-radius: 30px;
+    border: 1px solid #808080;
+    flex-direction: row;
+    font-weight: normal;
+    justify-content: space-between;
+}
+
+.title {
+    height: 100px;
+    margin-left: 50px;
+    margin-top: 7px;
+    display: flex;
+}
+
+.logo{
+    height:80px;  
+}
+
+.title-name{
+    color: #cc00ad;
+    font-size: 60px;
+    font-style: italic;
+    align-self: center;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.navigation{
+    align-self: center;
+}
+
+.navigation-content{
+    margin-top: 35px;
+    margin-right: 80px;
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+    font-size: 25px;
+    align-self: center;
+}
+
+.registration{
+    color: #cc00ad;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.login{
+    color: white;
+    background-color: #cc00ad;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.day-and-night{
+    background-color: #d3d3d3;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    border: none;
+    cursor: pointer;
+}
+
+.day-night{
+    height: 40px;
+}
+
+.main-conteiner{
+    margin-top: 70px;
+    margin-left: 60px;
+}
+
+.data-table{
+    margin-top: 30px;
+    font-size: 35px;
+    margin-left: 70px;
+}
+
+.data-value{
+    margin-top: 30px;
+    font-size: 60px;
+    margin-left: 70px;
+}
+
+.buttons{
+    list-style-type: none;
+    display: flex;
+    font-size: 25px;
+}
+
+.reception-button{
+    cursor: pointer;
+    font-size: 40px;
+    border: 0px;
+    margin-top: 30px;
+}
+
+.confirm-button {
+    background-color:green;
+}
+
+.cancel-button {
+    background-color:red;
+    margin-left: 20px;
+}

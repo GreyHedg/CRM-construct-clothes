@@ -1,0 +1,259 @@
+.body {
+    color: black;
+    background-color: white;
+    transition: all 1s ease;
+    display: flex;
+    width: 100vw;
+    height: 150vh;
+}
+
+.conteiner{
+    background-color: #d3d3d3;
+    margin: auto;
+    height: 12.5vh;
+    display: flex;
+    border-radius: 30px;
+    border: 1px solid #808080;
+    flex-direction: row;
+    font-weight: normal;
+    justify-content: space-between;
+    box-shadow: 3px 10px 15px 0px rgba(0, 0, 0, 0.5);
+}
+
+.title {
+    height: 100%;
+    margin-left: 5vw;
+    margin-top: 7px;
+    display: flex;
+}
+
+.logo{
+    height: 10vh;  
+}
+
+.title-name{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 7.5vh;
+    font-style: italic;
+    align-self: center;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.main-conteiner-fuctions{
+    list-style-type: none;
+}
+
+.function-button{
+    margin-left: 40%;
+    transform: translate(-50%);
+    margin-top: 40px;
+    width: 7vw;
+    height: 7vh;
+    border-radius: 30px;
+    font-size: 30px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.function-button:hover{
+    box-shadow: 3px 10px 15px 0px rgba(0, 0, 0, 0.3);
+}
+
+.construct_container
+{
+    width: 70vw;
+    height: 120vh;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 50px;
+    box-shadow: 3px 10px 15px 0px rgba(0, 0, 0, 0.5);
+}
+
+.header_hr
+{
+    width: 90%;
+    height: 6%;
+    text-align: center;
+    border-bottom: 1px solid #808080;
+    margin-bottom: 15px;
+    background-color: #d3d3d3;
+    border-radius: 20px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 40px;
+    box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 20px 20px 20px 20px;
+}
+
+#first_header{
+    margin-top: 1vh;
+}
+
+.hr{
+    background-color: #d3d3d3;
+    height: 100%;
+    float: left;
+}
+
+
+#left_hr{
+    border-radius: 20px 0px 0px 20px;
+    width: 46vw;
+}
+
+#right_hr{
+    border-radius: 0px 20px 20px 0px;
+    width: 24vw;
+}
+
+.list{
+    height: 9vh;
+    margin-bottom: 1.5vh;    
+}
+
+#sl_ft, #sd_ft 
+{
+    width: 100%;
+    height: auto;
+}
+
+#sl_ft img , #sd_ft img
+{
+    width: 15%;
+    margin-right: 15px;
+    cursor: pointer;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius:10px;
+    padding: 5px;
+}
+
+#sl_ft img:hover, #sd_ft img:hover 
+{
+    box-shadow: 0 0 15px ;
+    border: 1px solid;
+}
+
+#drawingCanvas
+{
+    border: 1px solid black;
+    border-radius: 6px;
+    box-shadow: 0 0 15px;
+    border: 1px solid;
+    margin: 0 auto;
+}
+
+div.canvas-container
+{
+    margin: 0 auto;
+}
+
+.images{
+    margin-top: 20px;
+}
+
+#designer{
+    margin-top: 40px;
+}
+
+.image{
+    width: 100px;
+}
+
+.invisible{
+    display: none;
+}
+
+#inscription{
+    transform: translate(-15%);
+    display: block;
+    width: 100%;
+    height: 6vh;
+    font-size: 3vh;
+    font-family: 'Source Code Pro', monospace;
+    background-color: #d3d3d3;
+    background-clip: padding-box;
+    border: 1px solid #808080;
+    border-radius: 1rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.list{
+    list-style-type: none;
+    display: flex;
+    align-self: center;
+}
+
+#addtext{
+    margin-left: 0;
+    margin-top: 0;
+    width: 8vh;
+    height: 6.5vh;
+    border-radius: 2vh;
+}
+
+.size-menu-button{
+    margin-left: 5%;
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.size-menu-button:hover{
+    box-shadow: 3px 10px 15px 0px rgba(0, 0, 0, 0.5);
+}
+
+.buttons{
+    list-style-type: none;
+    display: flex;
+    gap: 1.25vw;
+    margin-left: -2.5vw;
+}
+
+.button-size{
+    width: 5.2vh;
+    height: 5.2vh;
+    font-size: 2vh;
+    border-radius: 10px;
+    border: 1px solid #808080;
+    color: #d3d3d3;
+}
+
+#saveimage{
+    margin-left: 11vw;
+}
+
+.have:hover{
+    box-shadow: 0 0 15px;
+    border: 1px solid;
+}
+
+.have{
+    color: #373737;
+}
+
+.invisible{
+    display: none;
+}
+
+#btn-color{
+    margin-left: -2vw;
+    margin-top: 0.75vh;
+    display: block;
+    width: 6vh;
+    height: 6vh;
+    background-color: #d3d3d3;
+    border:1px solid #d3d3d3;
+    border-radius: 10vh;
+}
+
+.error-login{
+    color: red;
+    font-size: 15px
+}

@@ -1,0 +1,39 @@
+.order-frame {
+    margin-top: 50px;
+    background-color: #f8f8f8;
+    border: 2px solid #ccc;
+    width: 550px;
+    border-radius: 40px;
+    display: inline-block;
+    height: 280px;
+    box-shadow: 3px 10px 15px 0px rgba(0,0,0,0.5);
+  } 
+
+.order-id {
+    margin-top: -40px;
+    font-size: 50px;
+    font-weight: 700;
+    color: #cc00ad;
+}
+
+.soon-delivery {
+  margin-top: -30px;
+  font-size: 30px;
+  color: #cc00ad;
+}
+
+.another-order-btn {
+  padding: 15px 35px;
+  text-transform: uppercase;    
+  border-radius: 8px;
+  font-size:large;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+  text-decoration: none;
+  text-shadow: 2px 2px 2px cornflowerblue;
+}
+
+.another-order-btn:hover {
+  background-color: darkorchid;
+}
